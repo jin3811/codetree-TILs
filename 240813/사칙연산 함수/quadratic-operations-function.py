@@ -15,6 +15,6 @@ elif op == "*":
 elif op == "/":
     sik = f"{sik}{a // b}"
 else:
-    sik = str(False).lower()
+    sik = str(False)
 
 print(sik)
