@@ -6,7 +6,7 @@ class User:
 
     def __repr__(self):
         return f"""secret code : {self.code}
-meeting point: {self.meeting}
+meeting point : {self.meeting}
 time : {self.time}"""
 
 print(User(*input().split()))
