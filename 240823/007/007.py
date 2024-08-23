@@ -5,7 +5,7 @@ class User:
         self.time = time
 
     def __repr__(self):
-        return f"""code : {self.code}
+        return f"""secret code : {self.code}
 meeting : {self.meeting}
 time : {self.time}"""
 
