@@ -1,6 +1,6 @@
 n = int(input())
-board = [[0 for i in range(201)] for i in range(201)]
 color = 0
+board = [[color for i in range(201)] for i in range(201)]
 
 for _ in range(n):
     x1, y1, x2, y2 = map(lambda x : int(x) + 100, input().split())
