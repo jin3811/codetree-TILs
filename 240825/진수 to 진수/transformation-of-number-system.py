@@ -1,5 +1,5 @@
 def sol(n : int, base : int) -> str :
-    res = ""
+    res = []
     while n : 
         res.append(n % base)
         n //= base
