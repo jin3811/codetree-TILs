@@ -13,10 +13,8 @@ first, cur = "", ""
 answer = 0
 
 for time in range(1, recordA[n - 1][1] + 1):
-    if time > recordA[posA][1] :
-        posA += 1
-    if time > recordB[posB][1] :
-        posB += 1
+    if time > recordA[posA][1] : posA += 1
+    if time > recordB[posB][1] : posB += 1
 
     distA += recordA[posA][0]
     distB += recordB[posB][0]
